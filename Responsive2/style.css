@@ -1,0 +1,77 @@
+body
+{
+    margin: 0;
+    padding: 0;
+}
+#header
+{
+    display: flex;
+    width: 100%;
+    height: 70px;
+    background-color: rgb(253, 253, 253);
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+
+}
+#header h1
+{
+    font-size: 40px;
+    font-family: 'Delicious Handrawn', cursive;
+    color: black;
+    max-width: 100%;
+}
+#nowa_kolekcja
+{
+    display: flex;
+    width: 100%;
+    max-height: 100px;
+    background-color: rgb(0, 0, 0);
+    align-items: center;
+    justify-content: center;
+}
+#nowa_kolekcja h2
+{
+    font-size: 60px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+#new
+{
+    display: flex;
+    width: 100%;
+    max-height: 600px;
+    background-color: beige;
+    overflow: hidden;
+    background-image: url('https://wallpaperaccess.com/full/429865.jpg');
+    background-size: 100% 200%;
+    background-position: center;
+    justify-content: center;
+}
+#new img
+{
+    max-width: 40%;
+    max-height: 100%;
+    overflow: hidden;
+}
+#new h3
+{
+    color: white;
+    font-size: 40px;
+}
+#t-shirts
+{
+    display: flex;
+    width: 100%;
+    height: 1000px;
+    justify-content: center;
+}
+td img
+{
+    width: 100%;
+    height: 100%;
+}
+#footer
+{
+    width: 100%;
+}
