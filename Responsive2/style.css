@@ -32,7 +32,7 @@ body
 }
 #nowa_kolekcja h2
 {
-    font-size: 60px;
+    font-size: 50px;
     color: white;
     font-family: 'Poppins', sans-serif;
 }
@@ -63,8 +63,17 @@ body
 {
     display: flex;
     width: 100%;
-    height: 1000px;
+    height: 4000px;
     justify-content: center;
+}
+td
+{
+    text-align: center;
+    width: 30%;
+    height: 60%;
+    margin-top: -300px;
+    font-size: 19px;
+    font-family: 'Poppins', sans-serif;
 }
 td img
 {
@@ -73,5 +82,10 @@ td img
 }
 #footer
 {
+    margin-top: 100px;
     width: 100%;
+    height: 100px;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTJxso_DGI5XSUVer_HrkRxbMQ_7aU9P2l8-cayZ8DzKXoJThQj6omo85xsAHydIttwG4&usqp=CAU');
+    background-position: center;
+    background-size: 100% 200%;
 }
