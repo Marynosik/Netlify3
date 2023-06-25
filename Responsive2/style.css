@@ -1,91 +1,86 @@
-body
+*
 {
     margin: 0;
     padding: 0;
 }
-#header
+.wrapper
 {
-    display: flex;
     width: 100%;
-    height: 70px;
-    background-color: rgb(253, 253, 253);
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
+}
+.img-baner
+{
+    display: none;
 
 }
-#header h1
+.img-info
 {
-    font-size: 40px;
-    font-family: 'Delicious Handrawn', cursive;
-    color: black;
-    max-width: 100%;
-}
-#nowa_kolekcja
-{
-    display: flex;
     width: 100%;
-    max-height: 100px;
-    background-color: rgb(0, 0, 0);
-    align-items: center;
-    justify-content: center;
 }
-#nowa_kolekcja h2
+.img-info h2
 {
+    padding: 30px 30px 20px;
+    font-family: 'Poppins', sans-serif;
     font-size: 50px;
-    color: white;
+    color: black;
+    line-height: 44px;
+}
+.img-info p
+{
+    padding: 0px 30px 20px;
     font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: black;
+    line-height: 24px;
 }
-#new
+h3
 {
-    display: flex;
-    width: 100%;
-    max-height: 600px;
-    background-color: beige;
-    overflow: hidden;
-    background-image: url('https://wallpaperaccess.com/full/429865.jpg');
-    background-size: 100% 200%;
-    background-position: center;
-    justify-content: center;
-}
-#new img
-{
-    max-width: 40%;
-    max-height: 100%;
-    overflow: hidden;
-}
-#new h3
-{
-    color: white;
-    font-size: 40px;
-}
-#t-shirts
-{
-    display: flex;
-    width: 100%;
-    height: 4000px;
-    justify-content: center;
-}
-td
-{
-    text-align: center;
-    width: 30%;
-    height: 60%;
-    margin-top: -300px;
-    font-size: 19px;
+    padding: 0px 40px 20px;
     font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    text-shadow: 1px 1px 0px black;
 }
-td img
+.img-me
 {
     width: 100%;
-    height: 100%;
 }
-#footer
+.soon
 {
-    margin-top: 100px;
     width: 100%;
-    height: 100px;
-    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTJxso_DGI5XSUVer_HrkRxbMQ_7aU9P2l8-cayZ8DzKXoJThQj6omo85xsAHydIttwG4&usqp=CAU');
-    background-position: center;
-    background-size: 100% 200%;
+}
+.soon h2
+{
+    padding: 140px 40px 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+    line-height: 40px;
+}
+.soon p
+{
+    padding: 0px 40px 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    line-height: 20px; 
+    color: rgb(92, 91, 91);  
+}
+@media only screen and (min-width: 500px)
+{
+    .img-baner
+{
+    display: block;
+    width: 100%;
+    padding-bottom: 30px;
+}
+.wrapper
+{
+    width: 600px;
+    margin: 0 auto;
+}
+.img-info h2
+{
+    padding: 20px 0px 20px;
+}
+.img-info p
+{
+    padding: 20px 0px 20px;
+}
 }
