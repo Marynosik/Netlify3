@@ -62,7 +62,7 @@ h3
     line-height: 20px; 
     color: rgb(92, 91, 91);  
 }
-@media only screen and (min-width: 500px)
+@media only screen and (min-width: 400px)
 {
     .img-baner
 {
