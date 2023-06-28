@@ -12,7 +12,7 @@
     position: fixed;
     display: flex;
     width: 100%;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(32, 32, 32);
     align-items: center;
 }
 .menu img
@@ -38,18 +38,25 @@
     display: none;
 
 }
+.img-home
+{
+    width: 100%;
+    padding: 50px 0px 0px;
+}
 .kategoria
 {
     width: 100%;
-    text-align: center;
 }
 .kategoria h2
 {
-    font-size: 45px;
+    font-size: 40px;
     color: black;
-    font-family: 'Delicious Handrawn', cursive;
-    padding: 40px 0px 20px;
-    text-shadow: 2px 2px 0px aqua;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px 0px 10px;
+    border-bottom: 1px solid grey;
+    background-color: rgb(230, 230, 230);
 }
 .products
 {
@@ -59,13 +66,22 @@
 }
 .item1
 {
-    width: 100%;
+    width: 95%;
+    box-shadow: 2px 2px 4px black;
+    border-radius: 5%;
+    margin: 15px 7px 10px;
+    cursor: pointer;
 }
 .img-products
 {
     width: 100%;
 }
-@media only screen and (min-width: 500px)
+.img-products:hover
+{
+    transform: scale(0.9);
+    transition: 0.5s;
+}
+@media only screen and (min-width: 800px)
 {
     .img-baner
 {
@@ -75,7 +91,7 @@
 }
 .wrapper
 {
-    width: 600px;
+    width: 800px;
     margin: 0 auto;
 }
 }
