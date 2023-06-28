@@ -14,10 +14,11 @@
     width: 100%;
     background-color: rgb(32, 32, 32);
     align-items: center;
+    height: 70px;
 }
 .menu img
 {
-    width: 5%;
+    width: 10%;
 }
 .menu a
 {
@@ -84,5 +85,14 @@
 {
     width: 800px;
     margin: 0 auto;
+}
+.menu img
+{
+    width: 5%;
+}
+.menu a
+{
+    padding-left: 30px;
+    padding-right: 30px;
 }
 }
